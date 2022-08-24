@@ -18,13 +18,16 @@ const Navigation = () => {
                 <NavLink to="/services" className="nav">
                     <li>Services</li>
                 </NavLink>
-                <NavLink to="/Values" className="nav">
+                <NavLink to="/values" className="nav">
                     <li>Valeurs</li>
+                </NavLink>
+                <NavLink to="/posts" className="nav">
+                    <li>Posts</li>
                 </NavLink>
                 <NavLink to="/contact" className="nav">
                     <li>Contact</li>
                 </NavLink>
-                <NavLink to="/About" className="nav">
+                <NavLink to="/about" className="nav">
                     <li>A propos de nous</li>
                 </NavLink>
             </ul>

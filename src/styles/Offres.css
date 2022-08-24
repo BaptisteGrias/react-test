@@ -1,0 +1,14 @@
+.container-table{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 5% 0;
+}
+
+/* class offres de la div dans le parent tableau offres */
+.offres{
+    font-size: 25px;
+    font-family: 'Aboreto', sans-serif;
+    margin: 10px 0;
+}
+
