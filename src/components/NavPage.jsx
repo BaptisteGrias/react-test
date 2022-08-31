@@ -8,9 +8,8 @@ const NavPage = () => {
    
     const [index, setIndex] = useState(0)
     const [click, setClick] =  useState(0)
-    
-    const incrHandlerClick = () =>{
-    }
+
+    const incrHandlerClick = () => {};
     
     const incrHandler = (index) =>{
         setIndex(index + 1)
