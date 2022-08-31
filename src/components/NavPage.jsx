@@ -7,7 +7,11 @@ import NavIndexDisplay from './NavIndexDisplay';
 const NavPage = () => {
    
     const [index, setIndex] = useState(0)
-
+    const [click, setClick] =  useState(0)
+    
+    const incrHandlerClick = () =>{
+    }
+    
     const incrHandler = (index) =>{
         setIndex(index + 1)
         setClick(click + 1)
@@ -17,11 +21,7 @@ const NavPage = () => {
         setClick(click + 1)
     }
 
-    const [click, setClick] =  useState(0)
 
-    const incrHandlerClick = (click) =>{
-        setClick(click + 1)
-    }
    
     return (
         <div className='buttonPage'>
