@@ -1,6 +1,8 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import '../styles/Navigation.css';
+import NavPage from './NavPage';
+
 
 const Navigation = () => {
     return (
@@ -31,6 +33,7 @@ const Navigation = () => {
                     <li>A propos de nous</li>
                 </NavLink>
             </ul>
+            <NavPage />
         </div>
     );
 };

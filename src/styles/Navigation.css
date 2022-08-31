@@ -37,7 +37,7 @@ li{
 /* -------- Titre des pages ------- */
 
 h1{
-    margin-top: 50px;
+    margin-top: 10%;
     text-align: center;
     font-size: 100px;
     color: #403526;
@@ -79,4 +79,19 @@ p{
     letter-spacing: 2px;
     text-shadow: #806A4C 5px 0px 10px;
     font-family: 'EB Garamond', serif;
+}
+
+.buttonPage{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ClickSpan{
+    position: absolute;
+    top: 22%;
+    left: 20%;
+    font-size: 40px;
 }
