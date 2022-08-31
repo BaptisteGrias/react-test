@@ -90,8 +90,5 @@ p{
 }
 
 .ClickSpan{
-    position: absolute;
-    top: 22%;
-    left: 20%;
     font-size: 40px;
 }
