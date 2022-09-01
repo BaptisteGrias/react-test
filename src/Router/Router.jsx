@@ -8,7 +8,7 @@ import Values from '../pages/Values';
 import About from '../pages/About';
 import Contact from '../pages/Contact';
 import Posts from '../pages/Posts';
-
+import PageShow from '../pages/PageShow';
 
 
 const Roads = () => {
@@ -23,6 +23,7 @@ const Roads = () => {
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/posts" element={<Posts />} />
+            <Route path="/listes" element={<PageShow />} />
         </Routes>
     </BrowserRouter>
     );
