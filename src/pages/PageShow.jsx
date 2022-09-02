@@ -1,29 +1,22 @@
 import React, {useState} from 'react';
 import Navigation from '../components/Navigation';
-import PageShowButton from '../components/PageShowButton';
-import PageShowListe from '../components/PageShowListe';
+import ShowButton from '../components/ShowButton';
+import ShowListe from '../components/ShowListe';
 
 const PageShow = () => {
     
+    const [isShown, setIsShown] = useState(false)
 
-        const [isShown, setIsShown] = useState(false)
-
-        const showListe = () => {
-            setIsShown(true)
-            
-        }
-
-        const hideListe = () => {
-            setIsShown(!true)
-        }
+    const toggleDisplay = () => {
+        setIsShown(!isShown)
+    }
 
     return (
         <div>
             <Navigation />
             <h1>Ma Listes</h1>
-           <PageShowButton handler={showListe}  text="Show List" />
-           <PageShowButton handler={hideListe}  text="Hide List" />
-              {isShown ? <PageShowListe /> : null}
+           <ShowButton handler={toggleDisplay}  text={!isShown ? "Show Liste" : "Hide Liste"}  />
+              {isShown ? <ShowListe /> : null}
         </div>
     );
 };

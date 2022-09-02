@@ -1,6 +1,6 @@
 import React from 'react';
 
-const PageShowListe = () => {
+const ShowListe = () => {
 
     const listesData = [{id: 1, title: "SandMAn", show: 'Netflix '},
         {id: 2, title: "SEE", show: 'Apple TV+'},
@@ -27,4 +27,4 @@ const PageShowListe = () => {
     );
 };
 
-export default PageShowListe;
+export default ShowListe;

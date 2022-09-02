@@ -132,3 +132,59 @@ p{
     box-shadow: 2px 1px 3px black;
     cursor: pointer;
 }
+
+.input-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+}
+
+input{
+    width: 50%;
+    background: transparent;
+    border: none;
+    border: 2px solid #806A4C;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 25px;
+    font-family: 'EB Garamond', serif;
+    cursor: pointer;
+}
+
+.play-button-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.play-button{
+    background: url("../../public/bouttonplayervideo.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.player-wrapper{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.urlVideo{
+    color:#FFD396 ;
+}
+
+
+
+

@@ -9,6 +9,7 @@ import About from '../pages/About';
 import Contact from '../pages/Contact';
 import Posts from '../pages/Posts';
 import PageShow from '../pages/PageShow';
+import PageVideo from '../pages/PageVideo';
 
 
 const Roads = () => {
@@ -24,6 +25,7 @@ const Roads = () => {
             <Route path="/contact" element={<Contact />} />
             <Route path="/posts" element={<Posts />} />
             <Route path="/listes" element={<PageShow />} />
+            <Route path="/video" element={<PageVideo />} />
         </Routes>
     </BrowserRouter>
     );
